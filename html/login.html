@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Signup</title>
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <style>       
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    border-radius: 50px;
+    padding: 2px;
+  max-width: 400px;
+    width: 100%;
+    position: relative;
+    right:  500px;
+    top:150px
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #2874f0;
+    color: #f1f1f1;
+    padding: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #ff6b24;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #ff5500;
+  }
+/* styling navigation heading */
+.heading_navigation{
+    background-color: #2874f0;
+    height: 56px;
+    position: sticky;
+    bottom: 5000px;
+    z-index: 2;
+    width: 100%;
+}
+.nav_container{
+    align-items: center;
+    max-width: 1248px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    left: 61px;
+}
+.logo{
+    flex-direction: column;
+    width: fit-content;
+    position: relative;
+    left: 200px;
+}
+
+.flip_logo img{
+    width: 75px;
+}
+.anchor{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -5px;
+}
+.plus img{
+    width: 10px;
+}
+
+.plus_lan{ /* plus text css */
+    color:#ffe500 ;
+    margin: 0px 2px;
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto, arial, sans-serif;
+    text-decoration: none;
+    min-height: 140vh;
+    background:#f1f3f6 ;
+}
+.none{
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+  
+
+  </style>
+</head>
+<body>
+    <nav class="heading_navigation flex" id="navigation_heading">
+        <div class="nav_container flex">
+            <div class="logo flex">
+                <a href="../html/index.html" class="flip_logo"><img src="../images/logo.png" alt="logo"></a>
+                <a href="../html/index.html" class="anchor plus">Explore <span class="plus_lan">Plus <img src="../images/plus_icon.png" alt="logo"></span></a>
+            </div>
+            
+        </div>
+        <div class="container">
+            <form class="checkout-form" >
+              <h2 >SIGN UP</h2>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <button type="submit">CONTINUE</button>
+            </form>
+          </div>
+        
+    </nav>
+
+</body>
+</html>

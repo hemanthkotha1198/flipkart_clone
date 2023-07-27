@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="bodyy">
+    <!-- navigation bar -->
+    <nav class="heading_navigation flex" id="navigation_heading">
+        <div class="nav_container flex">
+            <div class="logo flex">
+                <a href="./html/index.html" class="flip_logo"><img src="./images/logo.png" alt="logo"></a>
+                <a href="./html/index.html" class="anchor plus">Explore <span class="plus_lan">Plus <img src="./images/plus_icon.png" alt="logo"></span></a>
+            </div>
+            <!-- searchbar-->
+            <div class="search_bar_container">
+                <div class="search_bar">
+                    <form action="" class="search flex">
+                        <input type="text" placeholder="Search For products, brands and more" class="search_box">
+                        <button class="btn_search">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- Login Button-->
+            <div class="login">
+                <a href="#" class="login_btn">login</a>
+                <div class="login_dropdown none">
+                    <ul class="login_dropdown_list">
+                        <li class="login_drop_li sign_li flex">
+                            <p class="new_login">New customer</p>
+                            <a href="./html/login.html" class="sign_up">Sign Up</a>
+                        </li>
+                        <li class="login_drop_li">My Profile</li>
+                        <li class="login_drop_li">Flipkart Plus Zne</li>
+                        <li class="login_drop_li"> Orders</li>
+                        <li class="login_drop_li">Whishlist</li>
+                        <li class="login_drop_li">Rewards</li>
+                        <li class="login_drop_li">Gift Cards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- more buttons-->
+            <div class="more">
+                <span class="more_lan"> More
+                    <i class="fa fa-angle-down"></i>
+                </span>
+                <div class="more_dropdown none">
+                    <div class="pointer more_pointer"></div>
+                    <ul class="more_dropdown_list">
+
+                        <li class="more_drop_li">
+                            <i class="more_icon fa fa-bell"></i>Notifications Preferences
+                        </li>
+
+                        <li class="more_drop_li">
+                             <i class="more_icon fa fa-shopping-basket"></i>Sell on Flipkart
+                        </li>
+
+                        <li class="more_drop_li">
+                             <i class="more_icon fa fa-question"></i> 24X7 Customer Care
+                        </li>
+
+                        <li class="more_drop_li">
+                            <i class="more_icon fa fa-line-chart"></i>Advertise
+                        </li>
+
+                        <li class="more_drop_li">
+                            <i class="more_icon fa fa-download"></i>Download App
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- Cart Button-->
+            <div class="cart">
+                <span class="cart_lan"><i class="fa fa-shopping-cart"><a href="#cartt" class="aa">Cart<span class="badge" id="notification-badge">1</span></a></i></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Heading Categories-->
+    <div class="heading_categories flex">
+        <ul class="heading_category_list flex">
+            <li class="heading_category_items">
+            <img src="./images/top-offer.png" alt="loading image" class="cat_image">
+            <p class="heading_item_name">Top Offers</p>
+        </li>
+            <li class="heading_category_items">
+                <img src="./images/grocery.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Grocery</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="./images/mobiles.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Mobiles</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="./images/fashion.png" alt="loading image" class="cat_image"> 
+                <p class="heading_item_name">Fashion <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="./images/electronics.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Electronics  <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="./images/home.jpg" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Home <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="./images/appliances.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Appliances  <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="./images/travel.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Travel</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="./images/toys.png" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Beauty, Toys and more  <i class="fa fa-angle-down"></i></p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Carousel-->
+    <div class="carousel_item_container flex">
+        <div class="prev_btn nav_button">
+            <div class="carousel_btn flex">
+                <i class="fa fa-angle-left next_prev"></i>
+            </div>
+        </div>
+        <div class="next_btn nav_button">
+            <div class="carousel_btn flex">
+                <i class="fa fa-angle-right next_prev"></i>
+            </div>
+        </div>
+        <div class="carousel_items flex">
+            <img src="./images/slider1.jpg" alt="loading" class="carousel_image">
+        </div>
+        
+    </div>
+
+
+
+    <div class="bestofElectronic_Contianer" >
+        <div class="bestofElectronic_list">
+
+
+            <!-- name -->
+            <div class="BestofElectronic_item">
+                <div class="bestofElectronic_bigText">Best of Electronics</div>
+                <a href="#" class="viewAllBtn">View All</a>
+                <div class="bestofElectronicmoreOption">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90">
+                </div>
+            </div>
+
+            <!-- products -->
+            <!-- product1 -->
+            <div class="bestofElctronic_product_item" >
+               <div class="BestofElectronic_item">   
+                <div class="bestOfElectornic_image_Product" img-id="1">
+                    <img src="https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg?q=70">
+               </div>
+                <div class="bestofElectronicmoreOption product" data-id="1" data-name="Monitors  (SAMSUNG)" data-price="8279" data-img="https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg?q=70">
+                   <p class="bestofElectornicProduct_name">Monitors  (SAMSUNG)</p>
+                   <p class="bestofElecronic_discount">From ₹8279</p>
+                   <!-- <p class="bestofElectronic_brand">DELL</p> -->
+                    <button class="add-to-cart" >ADD TO CART</button>
+                </div>
+            </div>
+            </div>
+        <!-- product2 -->
+
+            <div class="product" >
+    <div class="BestofElectronic_item">   
+
+    <div class="bestOfElectornic_image_Product" img-id="2">
+        <img src="https://rukminim1.flixcart.com/image/200/200/l5jxt3k0/dslr-camera/m/n/a/-original-imagg7hsggshhwbz.jpeg?q=70">
+    </div>
+    <div class="bestofElectronicmoreOption" data-id="2" data-name="TopMirrorless Camera" data-price="32790" data-img="https://rukminim1.flixcart.com/image/200/200/l5jxt3k0/dslr-camera/m/n/a/-original-imagg7hsggshhwbz.jpeg?q=70">
+        <p class="bestofElectornicProduct_name">TopMirrorless Camera</p>
+        <p class="bestofElecronic_discount">From ₹32790</p>
+        <button class="add-to-cart" >ADD TO CART</button>
+
+
+
+
+    </div>
+    </div>
+
+</div>
+
+
+<div class="product" >
+    <div class="BestofElectronic_item">   
+
+    <div class="bestOfElectornic_image_Product" img-id="3" >
+        <img src="https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70">
+    </div>
+    <div class="bestofElectronicmoreOption" data-id="3" data-name=" Printers (HP color)" data-price="3999" data-img="https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70">
+        <p class="bestofElectornicProduct_name"> Printers (HP color)</p>
+        <p class="bestofElecronic_discount">From ₹3999</p>
+        <button class="add-to-cart" >ADD TO CART</button>
+
+
+
+
+
+    </div>
+    </div>
+
+</div>
+
+
+<div class="product" >
+    <div class="BestofElectronic_item">   
+
+    <div class="bestOfElectornic_image_Product" img-id="4" >
+        <img src="https://rukminim2.flixcart.com/image/200/200/kx50gi80/projector/r/9/p/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.jpeg?q=70">
+    </div>          
+    <div class="bestofElectronicmoreOption" data-id="4" data-name="Projectors(ZEBRONICS)" data-price="9999" data-img="https://rukminim2.flixcart.com/image/200/200/kx50gi80/projector/r/9/p/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.jpeg?q=70">
+        <p class="bestofElectornicProduct_name">Projectors(ZEBRONICS)</p>
+        <p class="bestofElecronic_discount">From ₹9999</p>
+        <button class="add-to-cart" >ADD TO CART</button>
+
+
+
+
+
+    </div>
+    </div>
+
+</div>
+
+
+<div class="product" >
+    <div class="BestofElectronic_item">   
+
+    <div class="bestOfElectornic_image_Product" img-id="5" >
+        <img src="https://rukminim2.flixcart.com/image/200/200/xif0q/power-bank/d/a/f/-original-imagky3e8yp5ebvr.jpeg?q=70">
+    </div>
+    <div class="bestofElectronicmoreOption" data-id="5" data-name="Premium Power Bank" data-price="5000" data-img="https://rukminim2.flixcart.com/image/200/200/xif0q/power-bank/d/a/f/-original-imagky3e8yp5ebvr.jpeg?q=70">
+        <p class="bestofElectornicProduct_name">Premium Power Bank</p>
+        <p class="bestofElecronic_discount">From ₹5000</p>
+        <button class="add-to-cart" >ADD TO CART</button>
+
+
+
+
+
+    </div>
+    </div>
+
+</div>
+
+
+<div class="product" >
+    <div class="BestofElectronic_item">   
+
+    <div class="bestOfElectornic_image_Product" >
+            <img src="https://rukminim1.flixcart.com/image/400/400/kingqkw0-0/hair-straightener/s/v/x/hp8302-06-philips-original-imaf9jzzzurgqykt.jpeg?q=70" >
+    </div>
+    <div class="bestofElectronicmoreOption" data-id="6" data-name="Best of Hair straightener" data-price="3999" data-img="https://rukminim1.flixcart.com/image/400/400/kingqkw0-0/hair-straightener/s/v/x/hp8302-06-philips-original-imaf9jzzzurgqykt.jpeg?q=70">
+        <p class="bestofElectornicProduct_name">Best of Hair straightener</p>
+        <p class="bestofElecronic_discount">From ₹3999</p>
+        <button class="add-to-cart" >ADD TO CART</button>
+
+    
+    </div>
+    </div>
+
+</div>
+
+   
+
+</div>
+                
+
+        </div>
+    </div>
+    
+    <div class="bodyy" id="cartt">
+        <!-- <header>
+            <h1>Shopping Cart</h1> 
+            <button class="home1"><a href="#bodyy">HOME</a></button>
+        </header> -->
+<!-- navigation bar -->
+<nav class="heading_navigation flex" id="navigation_heading">
+    <div class="nav_container flex">
+        <div class="logo flex">
+            <a href="./html/index.html" class="flip_logo"><img src="./images/logo.png" alt="logo"></a>
+            <a href="./html/index.html" class="anchor plus">Explore <span class="plus_lan">Plus <img src="./images/plus_icon.png" alt="logo"></span></a>
+        </div>
+        <!-- searchbar-->
+        <div class="search_bar_container">
+            <div class="search_bar">
+                <form action="" class="search flex">
+                    <input type="text" placeholder="Search For products, brands and more" class="search_box">
+                    <button class="btn_search">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Login Button-->
+        <div class="login">
+            <a href="#cartt" class="login_btn">login</a>
+            <div class="login_dropdown none">
+                <ul class="login_dropdown_list">
+                    <li class="login_drop_li sign_li flex">
+                        <p class="new_login">New customer</p>
+                        <a href="./html/login.html" class="sign_up">Sign Up</a>
+                    </li>
+                    <li class="login_drop_li">My Profile</li>
+                    <li class="login_drop_li">Flipkart Plus Zne</li>
+                    <li class="login_drop_li"> Orders</li>
+                    <li class="login_drop_li">Whishlist</li>
+                    <li class="login_drop_li">Rewards</li>
+                    <li class="login_drop_li">Gift Cards</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+        <main>
+            
+            <div class="cart-items" id="cart-items">
+            </div>
+            <div class="cart-summary" >
+                <h2 ><center>Cart Summary</center></h2>
+                <ul id="cart"></ul>
+                <br><br>
+                <div class="itemss">
+                    <span class="totali">Total Items:</span>
+                    <span id="totalitems"></span>
+
+                </div>
+                <div class="cart-total">
+                    <span class="total">Total Amount:</span>
+                    <span id="total-price" style="color: red;"></span>
+                </div>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Flipkart Clone. All rights reserved.</p>
+        </footer>
+       
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
